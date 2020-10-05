@@ -1,0 +1,109 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.outter-container {
+	width: 100%;
+	height: 100vh; 
+	/*background-color: blue; */
+	background-image: url('https://images.pexels.com/photos/533671/pexels-photo-533671.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Oswald', sans-serif;
+	color: white;
+}
+.title-container {
+	color: black;
+	text-align: center;
+	padding: 30px;
+}
+.title {
+	text-shadow: 2px 2px 8px #e74c3c;
+}
+label {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 1.5rem;
+}
+input {
+	display: block;
+	width: 100%;
+	border: 0;
+	border-bottom:1px solid #555; 
+	background: transparent;
+	margin-bottom: 15px;
+	font-size:16px;
+    color: #fff;
+	padding:8px 0 5px 0;
+}
+input:focus{ 
+ border:none;	
+ outline:none;
+ border-bottom:1px solid #e74c3c;	
+}
+
+.title {
+	font-size: 2.5rem;
+}
+
+form {
+	text-align: center;
+	width: 30%;
+
+}
+
+.form-container {
+	/*position: absolute;*/
+	display: flex;
+	justify-content: center;
+	width: 70%;
+	height: 70%;
+	    background-color: rgba(0, 0, 0, 0.49);
+
+	/*border: solid 2px black;*/
+	margin: auto;
+	padding: 40px;
+/*	text-align: center;*/
+}
+
+.button-container > .btn{
+	color:#fff;
+	background-color:#e74c3c;
+	outline: none;
+    border: 0;
+    color: #fff;
+	padding:10px 20px;
+	text-transform:uppercase;
+	margin-top:50px;
+	border-radius:2px;
+	cursor:pointer;
+	position:relative;
+}
+
+.table {
+	font-family: 'Cardo', serif;
+
+}
+
+.table {
+	width: 80%;
+	margin: auto;
+}
+.table-row > th {
+	padding: 20px;
+	font-size: 1rem;
+
+}
+.table-head {
+	color: white;
+		background-color: black;
+
+}
+
+
+/*HELPERS*/
+.margin-top-20 {
+	margin-top: 20px;
+}
